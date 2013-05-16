@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1366285102 source:f:\image\main.cpp
+	<iostream>
+	<GL/glut.h>
+	"src/SOIL.h"
+
+1366285102 h"
+
+1215434608 f:\image\src\soil.h
+
+1367475445 source:/home/arpith/United/projects/CG/image/main.cpp
+	<iostream>
+	<GL/glut.h>
+	"src/SOIL.h"
+
+1215434608 /home/arpith/United/projects/CG/image/src/SOIL.h
+
