@@ -43,15 +43,15 @@ void display()
 	glBindTexture(GL_TEXTURE_2D, tex_2d);
 	glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_MODULATE);
 
-        //determint coordinates of the quad on which you will 'load' an image
+    //determint coordinates of the quad on which you will 'load' an image
 	glBegin(GL_POLYGON);
-	glTexCoord2f(1.0, 1.0);
-	glVertex2f(0,0);
-	glTexCoord2f(1.0, 0.0);
-	glVertex2f(0,x);
-	glTexCoord2f(0.0, 0.0);
-	glVertex2f(x,x);
 	glTexCoord2f(0.0, 1.0);
+	glVertex2f(0,0);
+	glTexCoord2f(0.0, 0.0);
+	glVertex2f(0,x);
+	glTexCoord2f(1.0, 0.0);
+	glVertex2f(x,x);
+	glTexCoord2f(1.0, 1.0);
 	glVertex2f(x,0);
 	glEnd();
         glDisable(GL_TEXTURE_2D);
